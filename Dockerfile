@@ -1,4 +1,4 @@
-ARG ARCH=amd64
+ARG ARCH=arm32v7
 ARG NODE_VERSION=10
 ARG OS=alpine
 
