@@ -1,4 +1,5 @@
-FROM alpine:3.10
+FROM node:lts-alpine3.11
+
 LABEL maintainer "Kyle Lucy <kmlucy@gmail.com>"
 
 RUN apk add --no-cache git tzdata && \
