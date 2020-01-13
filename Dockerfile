@@ -1,4 +1,4 @@
-FROM node:lts-alpine3.11
+FROM python3.8-nodejs13-alpine
 
 LABEL maintainer "Kyle Lucy <kmlucy@gmail.com>"
 
