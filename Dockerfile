@@ -1,4 +1,8 @@
-FROM python3.8-nodejs13-alpine
+ARG ARCH=amd64
+ARG NODE_VERSION=10
+ARG OS=alpine
+
+FROM ${ARCH}/node:${NODE_VERSION}-${OS}
 
 LABEL maintainer "Kyle Lucy <kmlucy@gmail.com>"
 
